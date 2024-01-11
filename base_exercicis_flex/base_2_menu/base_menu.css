@@ -18,7 +18,7 @@ li {
 }
 
 li:nth-of-type(5n+2) {
-   background-color:  #0A89A6;
+   background-color: #0A89A6;
 }
 
 li:nth-of-type(5n+3) {
@@ -34,7 +34,7 @@ li:nth-of-type(5n) {
 }
 
 li:nth-of-type(5n+1) {
-   background-color:  #93A603;
+   background-color: #93A603;
 }
 
 a {
@@ -43,4 +43,54 @@ a {
    line-height: 50px;
    text-decoration: none;
 }
- 
+
+/* ex2-1 */
+/* ul{
+   display: flex;
+   padding: 2%;
+}
+li{
+   width: 20%;
+   height: 60%;
+}
+a{
+   display: block;
+} */
+
+/* ex2-2 */
+/* a {
+   display: block;
+}
+
+@media (max-width:600px) {
+   ul {
+      display: flex;
+      padding: 2%;
+   }
+
+   li {
+      width: 20%;
+      height: 60%;
+   }
+} */
+
+/* ex2-3 */
+/* a {
+   display: block;
+}
+
+@media (max-width:600px) {
+   ul {
+      display: flex;
+      padding: 2%;
+   }
+
+   li {
+      width: 20%;
+      height: 60%;
+   }
+}
+
+li:hover {
+   transform: scale(1.2);
+} */
