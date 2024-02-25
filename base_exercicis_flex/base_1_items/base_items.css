@@ -146,7 +146,27 @@ div:nth-child(5) {
    flex-basis: 95%  
 }
 
- */
+@media (max-width:1024px){
+    div:nth-of-type(5n+2) {
+      flex: 1 0 40%;
+   }
+
+    div:nth-of-type(5n+3) {
+      flex: 1 0 40%;
+   }
+
+ div:nth-of-type(5n+4) {
+      flex: 1 0 40%;
+   }
+
+   div:nth-of-type(5n) {
+      flex:2 1 100%;
+   }
+
+    div:nth-of-type(5n+1) {
+      flex: 1 0 40%;
+   }
+} */
 
 /* ex1-6 */
 /* section {
@@ -167,6 +187,27 @@ div:nth-child(5) {
    flex-basis: 95%  
 }
 
+@media (max-width:1024px){
+    div:nth-of-type(5n+2) {
+      flex: 1 0 40%;
+   }
+
+    div:nth-of-type(5n+3) {
+      flex: 1 0 40%;
+   }
+
+ div:nth-of-type(5n+4) {
+      flex: 1 0 40%;
+   }
+
+   div:nth-of-type(5n) {
+      flex:2 1 100%;
+   }
+
+    div:nth-of-type(5n+1) {
+      flex: 1 0 40%;
+   }
+}
 
 @media (max-width: 600px){
    section{
